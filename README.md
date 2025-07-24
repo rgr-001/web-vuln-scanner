@@ -130,6 +130,7 @@ Use these **intentionally vulnerable test sites**:
 ## 👤 Author
 
 **Rittik Gourav Raul**  
+**OUTR,BBSR**
 _BTech Cybersecurity | Internship Project | GitHub: [rgr-001](https://github.com/rgr-001)_
 
 ---
@@ -155,5 +156,5 @@ python, flask, web-scanner, xss, sqli, security, vulnerability, ethical-hacking,
 ---
 
 ```
-🛡️ Built with 💻 by Rittik Gourav Raul for Cybersecurity Internship Task
+🛡️ Built with 💻 by Rittik Gourav Raul for Cybersecurity Internship Project in Elevate Labs.
 ```
