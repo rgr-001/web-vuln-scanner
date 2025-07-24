@@ -25,6 +25,18 @@ The **Web Vulnerability Scanner** is a lightweight tool designed to help ethical
 It automates the process of crawling, analyzing forms, injecting malicious payloads, and identifying unsafe input fields — all accessible through a simple Flask-based web interface.
 
 ---
+## 📸 Screenshots
+
+> ### 🖥️ Flask Application Terminal (Server Running)
+![Flask Terminal Output](flask-terminal.png)
+
+> ### 🌐 Web UI – Home Page
+![Web UI Home](web-ui-home.png)
+
+> ### 📊 Scan Results Showing Detected Vulnerabilities
+![Scan Results](scan-result.png)
+
+---
 
 ## 🧠 Key Features
 
@@ -95,16 +107,6 @@ python3 web_app.py
 - URL: http://target.com/login
 - Payload: ' OR '1'='1
 ```
-
----
-
-## 📸 Interface Screenshot
-
-> _UI Screenshot (replace with actual)_
-
-![Web Scanner UI](https://raw.githubusercontent.com/username/repo/main/demo-screenshot.png)
-
----
 
 ## 🧪 Safe Test Targets
 
