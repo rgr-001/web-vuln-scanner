@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Vulnerability Scanner</title>
+</head>
+<body>
+  <h1>Enter URL to Scan</h1>
+
+  <form method="POST">
+    <input type="text" name="url" placeholder="https://example.com" required>
+    <button type="submit">Scan</button>
+  </form>
+
+  {% if results %}
+    <h2>Results:</h2>
+    <ul>
+      {% for r in results %}
+        <li>{{ r['url'] }} - {{ r['vulnerability'] }} via {{ r['payload'] }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</body>
+</html>
